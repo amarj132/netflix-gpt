@@ -6,7 +6,7 @@ import { BG_URL } from "../utils/constants";
 const GptSearch = () => {
   return (
     <div>
-      <div className="absolute w-full -z-10">
+      <div className="fixed w-full -z-10">
         <img
           className="h-screen  w-screen object-cover"
           src={BG_URL}
